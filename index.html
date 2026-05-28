@@ -13,7 +13,7 @@
     </header>
     <main class="flex flex-1">
     <div class="flex-2 bg-red-300">
-      <p id="scoreDisplay" class="text-center text-3xl font-mono mt-3">coins</p>
+      <p id="scoreDisplay" class="text-center text-3xl font-mono mt-3">cargo</p>
       <button id="clicker">
         <img src="src/assets/crane.webp" class="ml-40 mt-30">
         <img src="src/assets/cargo.png" class="ml-80 mt-3 h-20">
@@ -21,11 +21,13 @@
         </button>
         </div>
         <div class="flex-1 bg-red-200 flex flex-col items-center">
+          <button id="upgradeOne" class="flex transition-all">Upgrade 1</button>
           <button>
-            <img src="src/assets/hook.png" class="h-30"> <p>0 Additional Hooks</p> <p class="text-xl">requires 212 clicks</p>
+            <img src="src/assets/hook.png" class="h-30"> <p id="upgradeOneCount">0 Additional Hooks</p> <p class="text-xl"> 112 cargo</p>
           </button>
+          <button id="upgradeTwo" class="flex transition-all">Upgrade 2</button>
           <button>
-            <img src="src/assets/anc.png" class="h-50"> <p>0 Big Red Hooks</p>
+            <img src="src/assets/anc.png" class="h-50"> <p id="upgradeTwoCount">0 Big Red Hooks</p> <p class="text-xl">730 cargo</p>
           </button>
 
         </div>
