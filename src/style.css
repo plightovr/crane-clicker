@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+body{
+  background-image: url(assets/reer.avif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: aliceblue;
+}
+.btn-unaffordable{
+  background-color: darkred !important;
+  color: lightgrey;
+}
+.btn-accessible{
+  background-color: yellow !important;
+  color: lightgrey;
+}
